@@ -1,0 +1,4 @@
+Frase2Frase1asdasassdaasdasassda
+PEEEEEEEEEEEEE
+PEEEEEEEEEEEEE
+[{"nome":"João"},{"nome":"Maria"},{"nome":"José"},{"nome":"Ana"},{"nome":"Pedro"},{"nome":"Carla"},{"nome":"Lucas"}][{"nome":"João"},{"nome":"Maria"},{"nome":"José"},{"nome":"Ana"},{"nome":"Pedro"},{"nome":"Carla"},{"nome":"Lucas"}]
