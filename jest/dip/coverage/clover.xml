@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1762279517462" clover="3.2.0">
+  <project timestamp="1762279517463" name="All files">
+    <metrics statements="26" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13" elements="39" coveredelements="39" complexity="0" loc="26" ncloc="26" packages="3" files="5" classes="5"/>
+    <package name="classes">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+      <file name="product.ts" path="/home/yago/js-curso/jest/dip/classes/product.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="shopping-cart-solid.ts" path="/home/yago/js-curso/jest/dip/classes/shopping-cart-solid.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="classes.interfaces">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="discount.ts" path="/home/yago/js-curso/jest/dip/classes/interfaces/discount.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="messaging.ts" path="/home/yago/js-curso/jest/dip/services/messaging.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="persistency.ts" path="/home/yago/js-curso/jest/dip/services/persistency.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

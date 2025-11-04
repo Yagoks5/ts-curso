@@ -8,8 +8,8 @@
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "esnext",
-    "target": "es5",
-    "types": [],
+    "target": "esnext",
+    "types": ["jest", "node"],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
@@ -39,6 +39,9 @@
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   }
 }
