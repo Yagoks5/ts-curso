@@ -1,3 +1,16 @@
+/**
+ * Builder (Construtor)
+ *
+ * O que é:
+ * - Separa a construção de um objeto complexo da sua representação, de modo
+ *   que o mesmo processo de construção possa criar diferentes representações.
+ *
+ * Para que serve / Quando usar:
+ * - Quando a criação de um objeto envolve muitos parâmetros opcionais ou
+ *   etapas, e você quer uma API legível/encadeada para montar o objeto.
+ * - Para evitar construtores com muitos parâmetros e melhorar legibilidade.
+ */
+
 export class User {
   constructor(
     public name: string,

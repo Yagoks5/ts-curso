@@ -1,3 +1,11 @@
+/**
+ * Runner e exports para exemplos de padrões comportamentais (behavioral).
+ *
+ * Este arquivo orquestra a execução dos exemplos nos módulos individuais
+ * (strategy, observer, command, iterator, mediator, memento, state, chain).
+ * Cada módulo contém um comentário explicativo sobre o padrão demonstrado.
+ */
+
 import { FreteNormal, FreteExpresso, CalculadoraFrete } from "./strategy";
 import { Usuario, CanalNotificacao } from "./observer";
 import {

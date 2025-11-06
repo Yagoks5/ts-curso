@@ -1,3 +1,17 @@
+/**
+ * Abstract Factory (Fábrica Abstrata)
+ *
+ * O que é:
+ * - Fornece uma interface para criar famílias de objetos relacionados ou
+ *   dependentes sem especificar suas classes concretas.
+ *
+ * Para que serve / Quando usar:
+ * - Quando o sistema deve ser independente de como seus produtos são
+ *   criados/compostos/representados.
+ * - Quando há várias famílias de produtos relacionados e você quer garantir
+ *   que objetos de uma família sejam usados juntos.
+ */
+
 export interface Cadeira {
   sentar(): void;
 }

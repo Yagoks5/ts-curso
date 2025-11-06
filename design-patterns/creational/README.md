@@ -18,3 +18,20 @@ Arquivos principais
 - `abstractFactory.ts` — `FabricaModerna` e `FabricaVitoriana` com `Cadeira`/`Mesa`.
 - `prototype.ts` — demonstração de clonagem (Prototype).
 - `index.ts` — `runCreationalExamples()` que executa todos os exemplos.
+
+## O que são padrões creacionais
+
+Padrões creacionais tratam de como objetos são criados. Eles abstraem e
+organizam a lógica de criação para tornar o sistema mais flexível, reutilizável
+e independente da forma concreta de instanciação.
+
+Para que servem:
+
+- Encapsular a lógica de criação de objetos complexos.
+- Evitar acoplamento direto entre código cliente e classes concretas.
+- Fornecer maneiras padronizadas de controlar instâncias (ex.: Singleton),
+  criar famílias de objetos relacionados (Abstract Factory) ou construir
+  objetos passo a passo (Builder).
+
+Cada arquivo neste diretório contém um comentário no topo explicando o padrão
+específico demonstrado naquele módulo.

@@ -1,4 +1,11 @@
-// Creational patterns module - exports examples and a helper runner
+/**
+ * Runner e exportações para os exemplos de padrões creacionais.
+ *
+ * Este arquivo orquestra a execução dos exemplos nos módulos individuais
+ * (singleton, builder, factoryMethod, abstractFactory, prototype). Cada
+ * módulo contém um comentário explicativo sobre o padrão demonstrado.
+ */
+
 import { Database } from "./singleton";
 import { User, UserBuilder } from "./builder";
 import {

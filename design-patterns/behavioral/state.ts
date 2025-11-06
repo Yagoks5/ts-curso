@@ -1,3 +1,15 @@
+/**
+ * State (Estado)
+ *
+ * O que é:
+ * - Permite que um objeto altere seu comportamento quando seu estado interno
+ *   muda. O objeto parecerá ter mudado de classe.
+ *
+ * Para que serve / Quando usar:
+ * - Quando um objeto deve se comportar de maneira diferente dependendo de seu
+ *   estado interno, e você quer evitar grandes estruturas condicionais.
+ */
+
 export interface Estado {
   executar(): void;
 }

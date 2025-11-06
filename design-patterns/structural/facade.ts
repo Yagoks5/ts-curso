@@ -1,3 +1,15 @@
+/**
+ * Facade (Padrão Fachada)
+ *
+ * O que é:
+ * - Fornece uma interface simplificada e unificada para um conjunto de
+ *   interfaces em um subsistema, facilitando o uso para clientes.
+ *
+ * Para que serve / Quando usar:
+ * - Simplificar interações com subsistemas complexos.
+ * - Reduzir acoplamento entre cliente e implementação interna dos subsistemas.
+ */
+
 export class SubsistemaA {
   ligar() {
     console.log("Ligando sistema A");

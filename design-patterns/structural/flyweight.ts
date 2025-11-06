@@ -1,3 +1,15 @@
+/**
+ * Flyweight (Padrão Flyweight)
+ *
+ * O que é:
+ * - Compartilha objetos imutáveis para reduzir uso de memória quando há
+ *   muitos objetos semelhantes.
+ *
+ * Para que serve / Quando usar:
+ * - Quando for necessário criar muitas instâncias semelhantes e houver
+ *   grande ganho ao compartilhar estado intrínseco.
+ */
+
 export class Arvore {
   constructor(
     public tipo: string,

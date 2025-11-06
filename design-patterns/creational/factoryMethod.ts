@@ -1,3 +1,15 @@
+/**
+ * Factory Method (Método de Fábrica)
+ *
+ * O que é:
+ * - Define uma interface para criar um objeto, mas deixa as subclasses decidirem
+ *   qual classe instanciar. Permite adiar a instanciação para subclasses.
+ *
+ * Para que serve / Quando usar:
+ * - Quando uma classe não pode antecipar o tipo exato de objetos que deve criar.
+ * - Para permitir que subclasses escolham os produtos que serão criados.
+ */
+
 export abstract class Transporte {
   abstract entregar(): void;
 }

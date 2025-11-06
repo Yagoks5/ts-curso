@@ -1,3 +1,16 @@
+/**
+ * Observer (Observador / Publicador-Inscrito)
+ *
+ * O que é:
+ * - Define uma dependência um-para-muitos entre objetos, de modo que quando
+ *   um objeto muda de estado, todos os seus dependentes são notificados e
+ *   atualizados automaticamente.
+ *
+ * Para que serve / Quando usar:
+ * - Quando mudanças em um objeto devem ser refletidas em outros objetos de
+ *   forma desacoplada (ex.: eventos, notificações, UI reativa).
+ */
+
 export interface Observador {
   atualizar(mensagem: string): void;
 }

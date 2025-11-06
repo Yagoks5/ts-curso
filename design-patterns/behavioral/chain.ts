@@ -1,3 +1,16 @@
+/**
+ * Chain of Responsibility (Cadeia de Responsabilidade)
+ *
+ * O que é:
+ * - Permite que vários objetos tenham a chance de processar uma solicitação,
+ *   passando a solicitação ao longo de uma cadeia até que um objeto a trate.
+ *
+ * Para que serve / Quando usar:
+ * - Quando você tem várias maneiras de tratar uma requisição e quer desacoplar
+ *   o remetente dos possíveis receptores.
+ * - Útil para processamento de eventos, handlers de input/validadores, etc.
+ */
+
 export abstract class Manipulador {
   private proximo?: Manipulador;
   setProximo(p: Manipulador) {

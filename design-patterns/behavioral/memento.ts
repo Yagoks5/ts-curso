@@ -1,3 +1,15 @@
+/**
+ * Memento
+ *
+ * O que é:
+ * - Captura e externaliza o estado interno de um objeto sem violar o
+ *   encapsulamento, permitindo restaurá-lo posteriormente.
+ *
+ * Para que serve / Quando usar:
+ * - Quando você precisa oferecer funcionalidades de desfazer/restaurar
+ *   estado (undo) ou salvar pontos de verificação do estado de um objeto.
+ */
+
 export class Memento {
   constructor(public estado: string) {}
 }

@@ -1,3 +1,15 @@
+/**
+ * Iterator (Iterador)
+ *
+ * O que é:
+ * - Fornece uma maneira de acessar sequencialmente os elementos de um objeto
+ *   agregado sem expor sua representação interna.
+ *
+ * Para que serve / Quando usar:
+ * - Quando você precisa percorrer coleções de forma uniforme (listas,
+ *   árvores, etc.) sem acoplar o cliente à estrutura interna.
+ */
+
 export class ColecaoNumeros {
   constructor(private items: number[] = []) {}
   adicionar(n: number) {

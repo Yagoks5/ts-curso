@@ -1,3 +1,12 @@
+/**
+ * Runner e exportações para os exemplos de padrões estruturais.
+ *
+ * Este arquivo apenas orquestra a execução dos exemplos nos módulos
+ * individuais (adapter, decorator, facade, proxy, bridge, composite,
+ * flyweight). Cada módulo contém um comentário próprio explicando o padrão
+ * correspondente.
+ */
+
 import { ApiAntiga, ApiNova, ApiAdapter } from "./adapter";
 import { Cafe, CafeSimples, LeiteDecorator } from "./decorator";
 import { SubsistemaA, SubsistemaB, FacadeSistema } from "./facade";
